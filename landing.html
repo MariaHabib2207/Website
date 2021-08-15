@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maria Habib</title>
+        <!--We can link external Style sheets in html so we can seperate the style code in a different folder-->
+         <link href="style/landing.css" rel="stylesheet">
+         <meta charset="utf-8">
+         <!--we add viewport to make our website fit to every screen-->
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+         <!--font awesome is used to add icons to website for more detials go to the website-->
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!--Nav bar are essential elements of website-->
+        <header>
+            <div class="brand-logo">
+                <a href="#"><img src="images/logo.png" alt="Brand Logo" height="50"></a>
+            </div>
+    
+            <input type="checkbox" id="toggle-btn">
+            <label for="toggle-btn" class="show-menu-btn"><i class="fas fa-bars"></i></label>
+    
+            <nav>
+                <ul class="navigation">
+                    <!--Pass the id in href so when the user clicks the buttons he is passed to the section-->
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="landing.html"> Landing</a></li>
+                  
+                   
+                    <label for="toggle-btn" class="hide-menu-btn"><i class="fas fa-times"></i></label>
+                </ul>
+            </nav>
+        </header>
+
+<!--Welcome-->
+<section id="welcome" >
+  <div >
+    <div class="row" >
+      <div class="col-6" id="welcome-quote">
+        <div class="text">
+        <h3>"If you feel like there's something out there that you're supposed to be doing,</h3>
+        <h3> if you have a passion for it, then stop wishing and just do it."</h3>
+       <h3>Wanda Skyes</h3> 
+          <button>Contact Me</button>
+        </div>
+      </div>
+      <div class="col-3" id="welcome-text">
+       <u><h3>Maria Habib</h3></u>
+       <h4>Software Enginner</h4>
+       <h4>Lahore Garrison University</h4>
+
+      </div>
+      <div class="col-3" id="welcome-image" >
+       <img src="images/Me.png" style="margin-top:15%">
+      </div>
+    </div>
+</section>
+
+
+<!--Services-->
+
+
+<section >
+    <u > <h1 class="skills-heading">Services </h1></u> 
+
+    <div class="row">
+       
+        <div class="col-3" id="card" >
+            <img src="images/ml.jpg">
+            <h2>Machine Learning</h2>
+
+        </div>
+
+        <div class="col-3"  id="card">
+            <img src="images/pentesting.jpg">
+            <h2>Pen Testing</h2>
+            
+        </div>
+        <div class="col-3"  id="card">
+            <img src="images/db.jpg">
+            <h2>Database Development</h2>
+            
+        </div>
+        <div class="col-3"  id="card">
+            <img src="images/web.jpg">
+            <h2>Web Development</h2>
+            
+        </div>
+    </div>
+</section>
+
+    <!--Video-->
+
+    <section >
+        <u > <h1 class="skills-heading">Video </h1></u> 
+        <iframe height="500px" width="100%" src="https://www.bing.com/videos/search?q=web+developmenr+sevices+youtube&&view=detail&mid=808D410960B4621A62DF808D410960B4621A62DF&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Dweb%2Bdevelopmenr%2Bsevices%2Byoutube%26FORM%3DHDRSC3" frameborder="0" allowfullscreen></iframe>
+      </iframe>
+    </section>
+    
+ 
+ <!--Footer-->
+ <footer class="footer-distributed" style="margin-top :5% ;background-image: url(images/footer.jpg);background-repeat: no-repeat ; background-size: cover;">
+
+    <div class="footer-left">
+
+    
+
+        <p class="footer-links">
+            <a href="#">Home</a>
+            ·
+            <a href="#">Blog</a>
+            ·
+            <a href="#">Pricing</a>
+            ·
+            <a href="#">About</a>
+            ·
+            <a href="#">Faq</a>
+            ·
+            <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">Maria Habib © 2021</p>
+
+        <div class="footer-icons">
+
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-right">
+
+        <p>Contact Us</p>
+
+        <form action="#" method="post">
+
+            <input type="text" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Message"></textarea>
+            <button>Send</button>
+
+        </form>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>
